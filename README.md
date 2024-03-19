@@ -1,4 +1,4 @@
-# OpenAI Grok Curve Experiments
+# Grok-enhanced
 
 ## Paper
 
@@ -7,6 +7,6 @@ This is the code for the paper [Grokking: Generalization Beyond Overfitting on S
 ## Installation and Training
 
 ```bash
-pip install -e .
-./scripts/train.py
+!pip install -r requirments.txt
+!python grok/scripts/train.py
 ```
