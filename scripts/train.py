@@ -11,4 +11,4 @@ hparams.logdir = os.path.abspath(hparams.logdir)
 
 
 print(hparams)
-print(grok.training.train(hparams))
+print(grok.grok.training.train(hparams))
