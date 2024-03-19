@@ -3,7 +3,7 @@
 import grok
 import os
 
-parser = grok.training.add_args()
+parser = grok.grok.training.add_args()
 parser.set_defaults(logdir=os.environ.get("GROK_LOGDIR", "."))
 hparams = parser.parse_args()
 hparams.datadir = os.path.abspath(hparams.datadir)
